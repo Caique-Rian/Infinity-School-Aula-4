@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+body{
+  background: rgb(26,111,7);
+  background: linear-gradient(90deg, rgb(42, 161, 15) 13%, rgba(8,207,26,1) 65%);
+
+}
+
+
+
+.containerPrincipal{
+ 
+  max-width:80%;
+  max-height: auto;
+  background: rgb(26,111,7);
+  background: linear-gradient(90deg, rgb(42, 161, 15) 13%, rgba(8,207,26,1) 65%);
+  margin: auto;
+
+}
+
+.caixaTime{
+  margin: 50px;
+  border: 2px solid black;
+  padding: 1.2px;
+}
+
+.titulo-Bg{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  
+
+}
+
+
+.linhaPrincipal{
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 2px solid black;
+  background-color: rgb(84, 255, 42)
+
+}
+
+th{
+  font-size: 21px;
+}
+
+.linhaConteudo{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 2px solid black;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(166, 255, 144)
+  
+}
+
+.letra{
+  font-size: 19px;
+}
+
+img{
+  width: 170px;
+  height: 97px;
+}
+
